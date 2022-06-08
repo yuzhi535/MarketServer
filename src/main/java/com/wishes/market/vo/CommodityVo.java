@@ -46,6 +46,18 @@ public class CommodityVo {
      */
     private String commodityOtherImgUrls;
 
+
+    private String commodityImg;
+
+
+    public String getCommodityImg() {
+        return commodityImg;
+    }
+
+    public void setCommodityImg(String commodityImg) {
+        this.commodityImg = commodityImg;
+    }
+
     /**
      * 商品id
      * @return id 商品id
